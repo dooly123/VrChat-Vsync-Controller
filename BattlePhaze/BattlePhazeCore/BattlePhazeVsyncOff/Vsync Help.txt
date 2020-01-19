@@ -1,0 +1,1 @@
+Add script BattlePhazeVsyncOff to the main camera in your scene. it does not have to be on the main camera however its one of the best places for the vsync controller
