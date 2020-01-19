@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-#endif
 namespace BattlePhaze.Vsync
 {
     /// <summary>
@@ -10,7 +9,6 @@ namespace BattlePhaze.Vsync
     /// </summary>
     public class BattlePhazeVsyncOff : MonoBehaviour
     {
-#if UNITY_EDITOR
         /// <summary>
         /// Target Frame Rate
         /// </summary>
@@ -41,6 +39,6 @@ namespace BattlePhaze.Vsync
         {
             DontSync, EveryVBlank, EverySecondVBlank
         }
-#endif
     }
 }
+#endif
